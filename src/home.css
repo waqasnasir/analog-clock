@@ -1,0 +1,59 @@
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card {
+  /* width: 500px; */
+  box-shadow: 0 12px 20px 0 lightgrey;
+  min-height: 240px;
+  margin: 20px;
+  max-width: 320px;
+  padding: 20px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inputContainer {
+  background-color: white;
+  display: inline-flex;
+  color: #555;
+  font-weight: 900;
+  line-height: 2;
+  padding: 10px;
+}
+.inputContainer > span {
+    margin: 0px 10px;
+}
+
+.timeInput {
+  color: #555;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.cardActionButton {
+  padding: 20px;
+  background: #a2b29f;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  width: -webkit-fill-available;
+}
+.cardTitle {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.result {
+    font-size: 18px;
+}
